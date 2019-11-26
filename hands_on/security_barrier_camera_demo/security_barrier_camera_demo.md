@@ -25,10 +25,10 @@ sudo python3 downloader.py --name license-plate-recognition-barrier-0001 -o $HOM
 #### Model Optimizer
 In this demo, the Model have been converted to .bin and .xml file.
 You can check it on the following path.
+```
 $HOME/openvino_models/ir/intel/vehicle-license-plate-detection-barrier-0106/FP16
 $HOME/openvino_models/ir/intel/vehicle-attributes-recognition-barrier-0039/FP16
 $HOME/openvino_models/ir/intel/license-plate-recognition-barrier-0001/FP16
-```
 ```
 
 #### Inference Engine Sample Compile
