@@ -21,7 +21,6 @@ sudo python3 downloader.py --name vehicle-attributes-recognition-barrier-0039 -o
 sudo python3 downloader.py --name license-plate-recognition-barrier-0001 -o $HOME/openvino_models/ir
 ```
 
-#### Moder Optimizer
 #### Model Optimizer
 In this demo, the Model have been converted to .bin and .xml file.
 You can check it on the following path.
