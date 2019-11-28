@@ -43,5 +43,5 @@ make security_barrier_camera_demo
 ```
 cd $HOME/inference_engine_demos_build/intel64/Release
 ./security_barrier_camera_demo -i $openvino_dir/deployment_tools/demo/car_1.bmp -m $vehicle-license-plate-detection-barrier-0106/vehicle-license-plate-detection-barrier-0106.xml -m_va $vehicle-attributes-recognition-barrier-0039/vehicle-attributes-recognition-barrier-0039.xml -m_lpr $license-plate-detection-barrier-0106/license-plate-detection-barrier-0106.xml -d HDDL
-
+```
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/Security_Barrier_Camera_Demo.png)
