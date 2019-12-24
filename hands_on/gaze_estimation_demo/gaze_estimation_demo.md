@@ -36,6 +36,6 @@ Excute the application
 Download test video from https://github.com/intel-iot-devkit/sample-videos
 ```
 cd $HOME/inference_engine_demos_build/intel64/Release
-./gaze_estimation_demo_all -i ~/Downloads/sample-videos-master/head-pose-face-detection-female.mp4 -m $a/gaze-estimation-adas-0002.xml -m_fd $b/face-detection-retail-0004.xml -m_hp $c/head-pose-estimation-adas-0001.xml -m_em $d/emotions-recognition-retail-0003.xml -m_lm $e/facial-landmarks-35-adas-0002.xml
+./gaze_estimation_demo -i ~/Downloads/sample-videos-master/head-pose-face-detection-female.mp4 -m $a/gaze-estimation-adas-0002.xml -m_fd $b/face-detection-retail-0004.xml -m_hp $c/head-pose-estimation-adas-0001.xml -m_lm $e/facial-landmarks-35-adas-0002.xml
 ```
 
